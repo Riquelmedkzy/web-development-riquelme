@@ -12,6 +12,7 @@ Features
 - Software Engineering — Clean architecture, reusable components, maintainable code, and structured development workflows.
 - Security — API secret protection, parameterized SQL queries, Zod validation, secure password hashing, access control, and rate limiting.
 - Infrastructure — HTTPS/TLS, reverse proxies, DDoS mitigation, audit logging, encryption, and conditional load balancing.
+- Database Connections (Serverless) — Connection pooling (PgBouncer, Prisma Accelerate, provider poolers), pool sizing, idle connection cleanup, and limits to prevent "too many connections" errors.
 - Performance — Core Web Vitals, image optimization, caching, efficient rendering, and mobile performance.
 - SEO & Indexing — Technical SEO, XML sitemaps, Google Search Console workflows, and search visibility diagnostics.
 - Quality Assurance — Testing, code review, security checks, regression prevention, and verification reports.
@@ -57,6 +58,10 @@ Create a website:
 Review an existing project:
 
 "Apply the web-development-riquelme skill to audit this application for security, performance, accessibility, and code quality."
+
+Review database connections in a serverless environment:
+
+"Analise a forma como este projeto se conecta ao banco de dados em um ambiente serverless. Verifique se as conexões estão sendo abertas de forma direta, sem reuso, ou se estamos utilizando um connection pooler (como PgBouncer ou Prisma Accelerate). Refatore a configuração do banco para usar pooling de conexões, garanta que conexões ociosas sejam encerradas corretamente e configure limites para evitar que o banco de dados trave por excesso de conexões simultâneas."
 
 Improve search visibility:
 
